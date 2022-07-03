@@ -1,0 +1,30 @@
+// Portfolio Modal 5
+#portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal5', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 IIT Patna
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/I.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Research Intern
+                                <br>
+                                | May 2018 - July 2018 
+                                <br>
+                                <br>
+                                button.btn.btn-primary(href='#!', data-bs-dismiss='modal')
+                                i.fas.fa-times.fa-fw
+                                | Close Window

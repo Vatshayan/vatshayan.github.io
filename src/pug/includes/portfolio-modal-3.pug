@@ -1,0 +1,37 @@
+// Portfolio Modal 3
+#portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal3', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Vatshayan Technologies
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/VT.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                            | Founder & CEO 
+                            <br>
+                            | Started : Feb 2020
+                            <br>
+                            | Vatshayan Technologies is parent Organization of two sub organization 
+                            <ol>
+                            <li> CSE PROJECTS (https://www.cse-projects.com)</li>
+                            <li> Computer Science Project (https://www.computer-science-project.in) </li>
+                            </ol>
+                            <br>
+                            | Freelance and Part time
+                            <br>
+                            button.btn.btn-primary(href='#!', data-bs-dismiss='modal')
+                                i.fas.fa-times.fa-fw
+                                | Close Window

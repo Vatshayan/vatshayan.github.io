@@ -1,0 +1,29 @@
+// Portfolio Modal 2
+#portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal2', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Accenture
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/Accenture.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                            | Application Development Associate 
+                            <br>
+                            | Worked 6 Nov 2020 - 10 Oct 2021
+                            <br>
+                            button.btn.btn-primary(href='#!', data-bs-dismiss='modal')
+                                i.fas.fa-times.fa-fw
+                                | Close Window
